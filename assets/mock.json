@@ -1,0 +1,33 @@
+{
+    "cases":[
+        {
+            "name": "Chroma",
+            "skins": [
+            { 
+                "skinName": "name",
+                "rarity": 1
+            },
+            {
+                "skinName": "nam2",
+                "rarity": 3
+            }
+            ]
+        },
+        {
+            "name": "begg",
+            "skins": [
+            { 
+                "skinName": "n",
+                "rarity": 2
+            },
+            {
+                "skinName": "a",
+                "rarity": 1
+            }
+            ]
+        }
+
+    ]
+
+
+}
