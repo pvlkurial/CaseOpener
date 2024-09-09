@@ -4,7 +4,7 @@ class Skin : BaseItem {
     bool m_stattrak;
     float m_wear;
     string grade;
-    Cases m_case;
+    Case m_case;
 
     float genWear(){
         return Math::Rand(0.0f, 1.0f);
@@ -30,10 +30,13 @@ class Skin : BaseItem {
     }
 
 
-    Skin(){
-
+    Skin(const string &in name){
+        m_name = name;
+        m_wear = genWear();
+        @m_tex = UI::LoadTexture("assets/chroma.png");
+        print("Created a new skin!");
     }
-
+    Skin(){}
 
 
 

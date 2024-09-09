@@ -6,5 +6,9 @@ class Case : BaseItem{
         m_name = name;
         m_texPath = texPath;
     }
+    Case(){
+        
+    }
 
+    
 }

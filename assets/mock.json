@@ -1,7 +1,7 @@
 {
     "cases":[
         {
-            "name": "Chroma",
+            "name": "first_case",
             "skins": [
             { 
                 "skinName": "name",
